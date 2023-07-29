@@ -1,3 +1,4 @@
+import React from "react"
 import Cards from "./Cards"
 import LocalNavbar from "../courses/LocalNavbar"
 function Competetions()
@@ -37,14 +38,14 @@ function Competetions()
     
     return (
         <div className="comp">
-            <LocalNavbar a="Competetions"></LocalNavbar>
+            {/* <LocalNavbar a="Competetions"></LocalNavbar> */}
             
-            <Cards x={a.x1}></Cards>
-            <Cards x={a.x3}></Cards>
             <Cards x={a.x2}></Cards>
-            <Cards x={a.x1}></Cards>
             <Cards x={a.x3}></Cards>
+            <Cards x={a.x1}></Cards>
             <Cards x={a.x2}></Cards>
+            <Cards x={a.x3}></Cards>
+            <Cards x={a.x1}></Cards>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-.btn {
+.btny {
     color: var(--clr-accent);
     background-color: var(--clr- rgba);
     border: 10px solid var(--clr-accent);
@@ -10,7 +10,7 @@
     transition: transform 0.5s ease;
 }
 
-.btn:hover {
+.btny:hover {
     /* transform: translateY(-10px); */
     background-color: orange;
 }

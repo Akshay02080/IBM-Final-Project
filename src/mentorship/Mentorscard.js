@@ -5,7 +5,7 @@ function Mentorscard(props) {
     <div>
         <div className="card mcard" >
         <div className='photobackground'>
-        <img className=" imgcard" src={props.x.x1}  height="150px" width="100px" alt="Card image cap"/>
+        <img className=" imgcard" src={props.x.x1}  width="240px" height="180px" alt="Card image cap"/>
         </div>
         <div className="card-body text-center">
             <h6>{props.x.name}</h6>

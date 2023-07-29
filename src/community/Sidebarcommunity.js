@@ -22,8 +22,8 @@ function Sidebarcommunity() {
                 />
               </span>
               <div className="card-body text-center">
-                <p>User bro</p>
-                <p>userbro123@gmail.com</p>
+                <p>Jake</p>
+                <p>jake_smiles</p>
               </div>
             </div>
             <div
@@ -48,7 +48,7 @@ function Sidebarcommunity() {
               style={{ width: "18rem" }}
             >
               <ul>
-                <p>Recent</p>
+                <h5>Recent</h5>
                 <li>
                   <p>reactjs</p>
                 </li>

@@ -37,27 +37,27 @@ function Navbar() {
             <input class="form-control " type="search" placeholder="Search" aria-label="Search"/>
             </form>
           </div>
-          <div className="nav-item btn">
+          <div className="nav-item btn btny">
             <i className='fa fa-home fa-fw'></i>
             Home
           </div>
-          <div className="nav-item btn">
+          <div className="nav-item btn btny">
           <i className="fa fa-users fa-fw"></i>
             My Network
           </div>
-          <div className="nav-item btn">
+          <div className="nav-item btn btny">
           <i class="fa fa-briefcase fa-fw"></i>
             Jobs
           </div>
-          <div className="nav-item btn">
+          <div className="nav-item btn btny">
             <AiFillMessage />
             Messaging
           </div>
-          <div className="nav-item btn">
+          <div className="nav-item btn btny">
             <MdNotifications />
             Notifications
           </div>
-          <div className="nav-item btn">
+          <div className="nav-item btn btny">
           <i class="fa fa-user fa-fw"></i>
             Your Profile
           </div>

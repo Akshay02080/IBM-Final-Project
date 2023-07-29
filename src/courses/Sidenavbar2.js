@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import { AiFillEdit} from "react-icons/ai";
 import "../components/Sidebar.css"
@@ -7,14 +8,13 @@ import {BsGraphUpArrow} from "react-icons/bs";
 import {BiSolidGroup} from "react-icons/bi";
 function Sidenavbar2(){
     return (
-        <div className='sidebar'>
-            <h3 ><AiFillEdit/> &nbsp; Courses</h3>
+        <div className='sidebar text-center'>
+            <h3 > Courses</h3>
             <p><a href='/courses'><TbDeviceDesktopCode></TbDeviceDesktopCode>  Programming</a></p>
             <p><a href='/courses/webdevelopment'><FaReact></FaReact>  Webdevelopment</a></p>
             <p><a href='/courses/digitalmarketing'><BsGraphUpArrow></BsGraphUpArrow>  Digitalmarketing</a></p>
             <p><a href='/courses/communication'> <BiSolidGroup></BiSolidGroup>  Communication Skills</a></p>
-            <p><a href='https://www.google.com/'>Internships</a></p>
-            <p><a href='https://www.google.com/'>Scholarships</a></p>
+
         </div>
     )
 }

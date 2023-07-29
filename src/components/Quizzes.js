@@ -1,3 +1,4 @@
+import React from "react"
 import Cards from "./Cards"
 import LocalNavbar from "../courses/LocalNavbar"
 function Quizzes()
@@ -37,14 +38,14 @@ function Quizzes()
     
     return (
         <div className="quiz">
-            <LocalNavbar a="Quizzes"></LocalNavbar>
+            {/* <LocalNavbar a="Quizzes"></LocalNavbar> */}
             
-            <Cards x={a.x1}></Cards>
             <Cards x={a.x3}></Cards>
             <Cards x={a.x2}></Cards>
             <Cards x={a.x1}></Cards>
             <Cards x={a.x3}></Cards>
             <Cards x={a.x2}></Cards>
+            <Cards x={a.x1}></Cards>
             
         </div>
     )

@@ -1,17 +1,17 @@
+import React from "react";
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import Rootlayoutmain from "./componentsvidhya/Rootlayoutmain";
 import Home from "./componentsvidhya/Home"
 import Login from "./componentsvidhya/Login";
-import Signin from "./componentsvidhya/Signin";
+
 import Logo from "./componentsvidhya/Logo";
-import Learning from "./componentsvidhya/Learning";
+
 import Mentoring from "./componentsvidhya/Mentoring";
 import Practice from "./componentsvidhya/Practice";
 import Jobs from "./componentsvidhya/Jobs";
 import Courses from "./componentsvidhya/Courses";
 import App3 from "./App3";
-import App2 from "./App2";
-import App1 from "./App1";
+
 import Community from "./community/Community";
 import Competetions from "./components/Competetions";
 import Hackathons from "./components/Hackathons";
@@ -22,6 +22,8 @@ import Programming from "./courses/Programming";
 import Digitalmarketing from "./courses/Digitalmarketing";
 import Communication from "./courses/Communication";
 import Rootlayout2 from "./courses/Rootlayout2";
+import { BiHome } from "react-icons/bi";
+import Signup from "./componentsvidhya/Signup/Signup";
 
 
 function App() {
@@ -35,15 +37,15 @@ const router=createBrowserRouter(
           path:'/',
           element:<Home/>
         },
-        // {
-        //   path:'/Login',
-        //   element:<Login/>
-        // },
-        // {
-        //   path:'/signin',
-        //   element:<Signin/>
+        {
+          path:'/Login',
+          element:<Login/>
+        },
+        {
+          path:'/signup',
+          element:<Signup/>
 
-        // },
+        },
         {
           path:'/Logo',
           element:<Logo/>

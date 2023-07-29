@@ -1,7 +1,8 @@
-.App {
-  
-  
+.hm{
+  max-width: 1580px; /* Adjust this value to the desired width */
+  padding: 5px; /* Add some padding to create space around the content */
 }
+
 
 .main{
   display: flex;

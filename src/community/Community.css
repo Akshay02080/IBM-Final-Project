@@ -12,3 +12,6 @@
     flex: 2; /* This will make the middle column twice as wide as the other columns */
     overflow-y: auto; /* Enable vertical scrolling for the middle column */
   }
+  .com12{
+   background-color: rgb(226, 222, 252);
+  }

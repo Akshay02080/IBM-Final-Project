@@ -1,7 +1,17 @@
-.rootlayout{
+.rootlayout1{
     display: grid;
     grid-template-columns: 250px 1fr;
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0lLHaDzj7zC5cnR-AOSLf6xEnahfibnoz4pezMH5HSqL_9bFsIb9-_MJMriSfwTp9l_0&usqp=CAU") ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.outlet1{
+    overflow-y: auto; /* Enable vertical scrolling for the middle column */
+    flex: 2; 
+}
+.side-bar{
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Ensure that the sticky columns take up the full height of the viewport */
+    
 }

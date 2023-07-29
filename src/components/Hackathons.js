@@ -1,3 +1,4 @@
+import React from "react"
 import "./Hackathons.css"
 import Cards from "./Cards"
 import LocalNavbar from "../courses/LocalNavbar"
@@ -38,7 +39,7 @@ function Hackathons()
     
     return (
         <div className="hack">
-            <LocalNavbar a="Hackathons"></LocalNavbar>
+            {/* <LocalNavbar a="Hackathons"></LocalNavbar> */}
             
             <Cards x={a.x1}></Cards>
             <Cards x={a.x2}></Cards>

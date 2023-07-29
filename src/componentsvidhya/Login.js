@@ -1,53 +1,41 @@
-// import React from 'react'
-// import {useForm} from 'react-hook-form';
-// import { useNavigate } from 'react-router-dom';
-// import { useState } from 'react';
-// import axios from 'axios';
+import React from 'react'
+import"./Login.css";
+function Login() {
+  return (
+    <div>
+        <div className="Auth-form-container">
+          <form className="Auth-form">
+            <div className="Auth-form-content">
+              <h3 className="Auth-form-title">Sign In</h3>
+              <div className="form-group mt-3">
+                <label>Email address</label>
+                <input
+                  type="email"
+                  className="form-control mt-1"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div className="form-group mt-3">
+                <label>Password</label>
+                <input
+                  type="password"
+                  className="form-control mt-1"
+                  placeholder="Enter password"
+                />
+              </div>
+              <div className="d-grid gap-2 mt-3">
+                <button type="submit" className="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+              <p className="forgot-password text-right mt-2">
+                Forgot <a href="#">password?</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+  )
+}
 
-// function Login() {
-
-// const [data,setData]=useState("");
-
-
-//   let {register,handleSubmit}=useForm();
-
-//   let navigate=useNavigate();
-// let Submitfun = async(userdata)=>{
-
-
-//   console.log('User Data is:'+userdata.password);
-
-//   axios.post("http://localhost:5000/Login/Loginifo",userdata)
-//   .then((res)=>{
-//    if(res.data==='no user found'){
-//     setData(" * eneter vaild pw");
-//    }
-//    else{
-//     navigate('/')
-//    }
-//   })
-//   .catch(err=>console.log("err at posting :",err.message));
-
-// }
-//   return (
-//     <div className='container'>
-//       <form action="" className=' border border-solid' onSubmit={handleSubmit(Submitfun)}>
-//             <div className='form d-block w-25 m-auto border bg-secondary '>
-//             <h1 className=''> Login </h1>
-//             <div className='m-3'> 
-//                 <input type="email" name="email" id="email" placeholder='email' {...register('email',{required:true})}/>
-//             </div>
-//            <div className='m-3'>
-//            <input type="password" name="" id="" placeholder='password' {...register('password',{required:true})}/>
-//            </div>
-//            <h4 className=''>{data}</h4>
-//          <button className='btn btn-success p-2 ' type='Submit'>submit</button>
-//             </div>
-//         </form>
-       
-      
-//     </div>
-//   )
-// }
-
-// export default Login
+export default Login

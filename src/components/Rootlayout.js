@@ -4,12 +4,12 @@ import "./Rootlayout.css"
 function Rootlayout()
 {
     return(
-        <div className="rootlayout">
-            <div>
-                <Sidebar></Sidebar>
+        <div className="rootlayout1">
+            <div className="side-bar">
+                <Sidebar/>
             </div>
-            <div className="outlet">
-                <Outlet></Outlet>
+            <div className="outlet1">
+                <Outlet/>
             </div>
 
         </div>

@@ -9,7 +9,7 @@ import LastCol from "./LastCol";
 
 function Community() {
   return (
-    <div>
+    <div className="com12"> 
       {/* <Navbar/> */}
       <div className="parent row">
         <div className="child col-lg-3 sticky">

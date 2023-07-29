@@ -4,11 +4,11 @@ import "../components/Rootlayout.css"
 function Rootlayout2()
 {
     return(
-        <div className="rootlayout">
-            <div>
+        <div className="rootlayout1">
+            <div className="side-bar">
                 <Sidenavbar2></Sidenavbar2>
             </div>
-            <div className="outlet container">
+            <div className="outlet1 container">
                 <Outlet></Outlet>
             </div>
 
